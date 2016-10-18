@@ -1,0 +1,157 @@
+<html>
+
+<head>
+    <!-- Bootstrap Core CSS -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/animate.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+    <!-- Template js -->
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/jquery.appear.js"></script>
+    <script src="../js/contact_me.js"></script>
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/modernizr.custom.js"></script>
+    <script src="../js/script.js"></script>
+
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    <script src="https://apis.google.com/js/platform.js" async defer>
+        {
+            lang: 'en-GB'
+        }
+    </script>
+</head>
+
+<body>
+  <!--Fix Scroll Bar Issue with multiple Modal Windows Clarified as Bootstrap BUG-->
+  <!--Validation of open modal adding modal-open class to css <style></style>-->
+  <script>
+      $(document).on('hidden.bs.modal', function(event) {
+          if ($('.modal:visible').length) //check if any modal is open
+          {
+              $('body').addClass('modal-open'); //add class to body
+          }
+      });
+  </script>
+
+    <!--Activate Modal-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#notes").modal('show');
+        });
+    </script>
+    <!--End Activate Modal-->
+
+    <!-- Start Notes Section -->
+    <div class="section-modal modal fade" id="notes" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" value="Back" onclick="history.go(-1);">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="section-title text-center">
+                        <h3>Notes</h3>
+                        <p>Important Notes right where you need them.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="latest-post">
+                            <img src='../Important Notes/Exams.png' class="img-responsive" alt="">
+                            <h4>Exam Dates</h4>
+                            <div class="post-details">
+                                <ul>
+                                    <li><i class="fa fa-user"></i> Author : Examplar</li>
+                                    <li><i class="fa fa-calendar"></i> 07 Aug, 2016</li>
+                                    <li><i class="fa fa-tag"></i> Resources</li>
+                                </ul>
+                            </div>
+                            <p>
+                                <h2>Edexcel Exams:</h2>
+                                <br>
+                                <h3>Mathematics:</h3>
+                                <br>
+                                Core 1 : Wednesday 17th May 2017 (AM)
+                                <br>
+                                Core 2 : Wednesday 24th May 2017 (AM)
+                                <br>
+                                Core 3 : Tuesday 20th June 2017 (PM)
+                                <br>
+                                Core 4 : Friday 23rd June 2017 (AM)
+                                <br>
+                                Statistics 1 : Wednesday 7th June 2017 (AM)
+                                <br>
+                                Statistics 2 : Monday 26th June 2017 (PM)
+                                <br>
+                                Statistics 3 : Wednesday 24th May 2017 (AM)
+                                <br>
+                                Statistics 4 : Wednesday 28th June 2017 (AM)
+                                <br>
+                                Further Pure 1 : Friday 19th May 2017 (AM)
+                                <br>
+                                Further Pure 2 : Wednesday 7th June 2017 (AM)
+                                <br>
+                                Further Pure 3 : Monday 26th June 2017 (PM)
+                                <br>
+                                <hr>
+                                <a href="../files/Mathematics/Edexcel/Edexcel 2017 Exam Timetable.pdf" target="_blank">Edexcel 2017 Exam Timetable </a>
+                                <br>
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="latest-post">
+                            <img src='../Important Notes/Useful Links.png' class="img-responsive" alt="">
+                            <h4>Useful Links</h4>
+                            <div class="post-details">
+                                <ul>
+                                    <li><i class="fa fa-user"></i> Author : Examplar</li>
+                                    <li><i class="fa fa-calendar"></i> 07 Aug, 2016</li>
+                                    <li><i class="fa fa-tag"></i> Resources</li>
+                                </ul>
+                            </div>
+                            <p>
+                                Exam Solutions- A-Level Mathematics Revision: <a href="http://www.examsolutions.net/" target="_blank">www.examsolutions.net</a>
+                                <br>
+                                Physics and Maths Tutor: <a href="http://www.physicsandmathstutor.com/" target="_blank">www.physicsandmathstutor.com</a>
+                                <br>
+                                VBiology Revision: <a href="http://vbio.weebly.com/" target="_blank">www.vbio.weebly.com</a><br>
+                                Special thanks to Vbio for providing some of the material on this website.
+                                <br>
+                                Mr Pollock AQA A-Level Biology: <a href="https://www.youtube.com/user/MrPollockBiology" target="_blank">https://www.youtube.com/user/MrPollockBiology</a>
+                                <br>
+                                Dr Physics OCR A-Level Physics: <a href="https://www.youtube.com/user/DrPhysicsA" target="_blank">https://www.youtube.com/user/DrPhysicsA</a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Notes Section -->
+
+</body>
+
+</html>

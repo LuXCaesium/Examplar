@@ -1,0 +1,1342 @@
+<html>
+
+<head>
+    <!-- Bootstrap Core CSS -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/animate.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+    <!-- Template js -->
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/jquery.appear.js"></script>
+    <script src="../js/contact_me.js"></script>
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/modernizr.custom.js"></script>
+    <script src="../js/script.js"></script>
+
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    <script src="https://apis.google.com/js/platform.js" async defer>
+        {
+            lang: 'en-GB'
+        }
+    </script>
+</head>
+
+<body>
+  <!--Fix Scroll Bar Issue with multiple Modal Windows Clarified as Bootstrap BUG-->
+  <!--Validation of open modal adding modal-open class to css <style></style>-->
+  <script>
+      $(document).on('hidden.bs.modal', function(event) {
+          if ($('.modal:visible').length) //check if any modal is open
+          {
+              $('body').addClass('modal-open'); //add class to body
+          }
+      });
+  </script>
+
+    <!--Activate Modal-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#chemistryrevision").modal('show');
+        });
+    </script>
+    <!--End Activate Modal-->
+
+    <!-- Start Chemistry Revision Section -->
+    <div class="section-modal modal fade" id="chemistryrevision" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" value="Back" onclick="history.go(-1);">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="section-title text-center">
+                    <h3>A-Level Chemistry Revision</h3>
+                    <br>
+                    <br>
+                </div>
+            </div>
+
+            <div class="chemistry-tab">
+                <div class="container">
+                    <ul class="nav nav-tabs nav-justified" role="tablist">
+                        <li class="active"><a href="#edexcel" role="tab" data-toggle="tab">Edexcel</a></li>
+                        <li><a href="#ocr-cr" role="tab" data-toggle="tab">OCR</a></li>
+                        <li><a href="#aqa-cr" role="tab" data-toggle="tab">AQA</a></li>
+                        <li><a href="#step-cr" role="tab" data-toggle="tab">STEP</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+
+                        <div class="tab-pane active" id="edexcel-cr">
+                            <p>
+                                <div class="chemistry">
+                                    <i class="fa fa-file-pdf-o"></i>
+                                    <div class="feature-content">
+                                        <h4>N/A</h4>
+                                        <p style="text-align:center"></p>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+
+
+                        <div class="tab-pane" id="ocr-cr">
+                            <!--First Row-->
+                            <div class="col-lg-6">
+                                <div class="section-title text-center">
+                                    <h4>OCR A From 2015</h4>
+                                    <br>
+                                    <br>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!--AS1 Modal-->
+                                    <div class="chemistry">
+                                        <i class="fa" data-toggle="modal" href="#as1cr">AS1</i>
+                                        <div class="feature-content">
+                                            <h4>AS Paper 1</h4>
+                                        </div>
+                                    </div>
+                                    <div id="as1cr" class="second-modal modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="close-modal" data-toggle="modal" data-target="#as1cr">
+                                                    <div class="lr">
+                                                        <div class="rl">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="section-title text-center">
+                                                        <h3>AS Paper 1</h3>
+                                                        <br>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:left">
+                                                            <h4>AS 1 Questions</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 AS 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 AS 1 QP</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:right">
+                                                            <h4>AS 1 Markscheme</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 AS 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 AS 1 MS</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Second Division-->
+                                <div class="col-lg-3">
+                                    <!--AS2 Modal-->
+                                    <div class="chemistry">
+                                        <i class="fa" data-toggle="modal" href="#as2cr">AS2</i>
+                                        <div class="feature-content">
+                                            <h4>AS Paper 2</h4>
+                                        </div>
+                                    </div>
+                                    <div id="as2cr" class="second-modal modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="close-modal" data-toggle="modal" data-target="#as2cr">
+                                                    <div class="lr">
+                                                        <div class="rl">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="section-title text-center">
+                                                        <h3>AS Paper 2</h3>
+                                                        <br>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:left">
+                                                            <h4>AS 2 Questions</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 AS 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 AS 2 QP</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:right">
+                                                            <h4>AS 2 Markscheme</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 AS 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 AS 2 MS</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Third Division-->
+                                <div class="col-lg-3">
+                                    <!--A1 Modal-->
+                                    <div class="chemistry">
+                                        <i class="fa" data-toggle="modal" href="#a1cr">A1</i>
+                                        <div class="feature-content">
+                                            <h4>A-Level Paper 1</h4>
+                                        </div>
+                                    </div>
+                                    <div id="a1cr" class="second-modal modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="close-modal" data-toggle="modal" data-target="#a1cr">
+                                                    <div class="lr">
+                                                        <div class="rl">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="section-title text-center">
+                                                        <h3>A-Level Paper 1</h3>
+                                                        <br>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:left">
+                                                            <h4>A 1 Questions</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 A 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 A 1 QP</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:right">
+                                                            <h4>A 1 Markscheme</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 A 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 A 1 MS</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Forth Division-->
+                                <div class="col-lg-3">
+                                    <!--A2 Modal-->
+                                    <div class="chemistry">
+                                        <i class="fa" data-toggle="modal" href="#a2cr">A2</i>
+                                        <div class="feature-content">
+                                            <h4>A-Level Paper 2</h4>
+                                        </div>
+                                    </div>
+                                    <div id="a2cr" class="second-modal modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="close-modal" data-toggle="modal" data-target="#a2cr">
+                                                    <div class="lr">
+                                                        <div class="rl">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="section-title text-center">
+                                                        <h3>A-Level Paper 2</h3>
+                                                        <br>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:left">
+                                                            <h4>A 2 Questions</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 A 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 A 2 QP</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:right">
+                                                            <h4>A 2 Markscheme</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 A 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 A 2 MS</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Fith Division-->
+                                <div class="col-lg-3">
+                                    <!--A3 Modal-->
+                                    <div class="chemistry">
+                                        <i class="fa" data-toggle="modal" href="#a3cr">A3</i>
+                                        <div class="feature-content">
+                                            <h4>A-Level Paper 3</h4>
+                                        </div>
+                                    </div>
+                                    <div id="a3cr" class="second-modal modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="close-modal" data-toggle="modal" data-target="#a3cr">
+                                                    <div class="lr">
+                                                        <div class="rl">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="section-title text-center">
+                                                        <h3>A-Level Paper 3</h3>
+                                                        <br>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:left">
+                                                            <h4>A 3 Questions</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 A 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 A 3 QP</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:right">
+                                                            <h4>A 3 Markscheme</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 A 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 A 3 MS</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--This is the second section for papers before 2015-->
+                            <div class="col-lg-6">
+                                <div class="section-title text-center">
+                                    <h4>OCR A Before 2015</h4>
+                                    <br>
+                                    <br>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!--Unit1 Modal-->
+                                    <div class="chemistry">
+                                        <i class="fa" data-toggle="modal" href="#unit1cr">U1</i>
+                                        <div class="feature-content">
+                                            <h4>Unit 1</h4>
+                                        </div>
+                                    </div>
+                                    <div id="unit1cr" class="second-modal modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="close-modal" data-toggle="modal" data-target="#unit1cr">
+                                                    <div class="lr">
+                                                        <div class="rl">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="section-title text-center">
+                                                        <h3>Unit 1</h3>
+                                                        <br>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:left">
+                                                            <h4>Unit 1 Questions</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 Unit 1 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 Unit 1 QP</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:right">
+                                                            <h4>Unit 1 Markscheme</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 Unit 1 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 Unit 1 MS</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Second Division-->
+                                <div class="col-lg-3">
+                                    <!--unit2 Modal-->
+                                    <div class="chemistry">
+                                        <i class="fa" data-toggle="modal" href="#unit2cr">U2</i>
+                                        <div class="feature-content">
+                                            <h4>Unit 2</h4>
+                                        </div>
+                                    </div>
+                                    <div id="unit2cr" class="second-modal modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="close-modal" data-toggle="modal" data-target="#unit2cr">
+                                                    <div class="lr">
+                                                        <div class="rl">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="section-title text-center">
+                                                        <h3>Unit 2</h3>
+                                                        <br>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:left">
+                                                            <h4>Unit 2 Questions</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 Unit 2 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 Unit 2 QP</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:right">
+                                                            <h4>Unit 2 Markscheme</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 Unit 2 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 Unit 2 MS</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Third Division-->
+                                <div class="col-lg-3">
+                                    <!--unit3 Modal-->
+                                    <div class="chemistry">
+                                        <i class="fa" data-toggle="modal" href="#unit3cr">U3</i>
+                                        <div class="feature-content">
+                                            <h4>Unit 3</h4>
+                                        </div>
+                                    </div>
+                                    <div id="unit3cr" class="second-modal modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="close-modal" data-toggle="modal" data-target="#unit3cr">
+                                                    <div class="lr">
+                                                        <div class="rl">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="section-title text-center">
+                                                        <h3>Unit 3</h3>
+                                                        <br>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:left">
+                                                            <h4>Unit 3 Questions</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 Unit 3 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 Unit 3 QP</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:right">
+                                                            <h4>Unit 3 Markscheme</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 Unit 3 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 Unit 3 MS</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Forth Division-->
+                                <div class="col-lg-3">
+                                    <!--unit4 Modal-->
+                                    <div class="chemistry">
+                                        <i class="fa" data-toggle="modal" href="#unit4cr">U4</i>
+                                        <div class="feature-content">
+                                            <h4>Unit 4</h4>
+                                        </div>
+                                    </div>
+                                    <div id="unit4cr" class="second-modal modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="close-modal" data-toggle="modal" data-target="#unit4cr">
+                                                    <div class="lr">
+                                                        <div class="rl">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="section-title text-center">
+                                                        <h3>Unit 4</h3>
+                                                        <br>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:left">
+                                                            <h4>Unit 4 Questions</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 Unit 4 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 Unit 4 QP</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:right">
+                                                            <h4>Unit 4 Markscheme</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 Unit 4 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 Unit 4 MS</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Fith Division-->
+                                <div class="col-lg-3">
+                                    <!--unit5 Modal-->
+                                    <div class="chemistry">
+                                        <i class="fa" data-toggle="modal" href="#unit5cr">U5</i>
+                                        <div class="feature-content">
+                                            <h4>Unit 5</h4>
+                                        </div>
+                                    </div>
+                                    <div id="unit5cr" class="second-modal modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="close-modal" data-toggle="modal" data-target="#unit5cr">
+                                                    <div class="lr">
+                                                        <div class="rl">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="section-title text-center">
+                                                        <h3>Unit 5</h3>
+                                                        <br>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:left">
+                                                            <h4>Unit 5 Questions</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 Unit 5 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 Unit 5 QP</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:right">
+                                                            <h4>Unit 5 Markscheme</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 Unit 5 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 Unit 5 MS</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Sixth Division-->
+                                <div class="col-lg-3">
+                                    <!--unit6 Modal-->
+                                    <div class="chemistry">
+                                        <i class="fa" data-toggle="modal" href="#unit6cr">U6</i>
+                                        <div class="feature-content">
+                                            <h4>Unit 6</h4>
+                                        </div>
+                                    </div>
+                                    <div id="unit6cr" class="second-modal modal fade" role="dialog">
+                                        <div class="modal-dialog">
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="close-modal" data-toggle="modal" data-target="#unit6cr">
+                                                    <div class="lr">
+                                                        <div class="rl">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="section-title text-center">
+                                                        <h3>Unit 6</h3>
+                                                        <br>
+                                                        <br>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:left">
+                                                            <h4>Unit 6 Questions</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 Unit 6 QP</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 Unit 6 QP</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <p style="text-align:right">
+                                                            <h4>Unit 6 Markscheme</h4>
+                                                            <hr>
+                                                            <a href="" target="_blank">2015 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2014 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2013 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2012 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2011 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2010 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2009 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2008 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2007 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2006 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2005 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2004 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2003 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2002 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2001 Unit 6 MS</a>
+                                                            <br>
+                                                            <a href="" target="_blank">2000 Unit 6 MS</a>
+                                                            <br>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="tab-pane" id="aqa-cr">
+                            <p>
+                                <div class="chemistry">
+                                    <i class="fa fa-file-pdf-o"></i>
+                                    <div class="feature-content">
+                                        <h4>N/A</h4>
+                                        <p style="text-align:center"></p>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+
+                    </div>
+                    <!-- /.tab-content -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Chemistry Revision Section -->
+
+</body>
+
+</html>

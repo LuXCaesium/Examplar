@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <!-- Bootstrap Core CSS -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/animate.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+    <!-- Template js -->
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/jquery.appear.js"></script>
+    <script src="../js/contact_me.js"></script>
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/modernizr.custom.js"></script>
+    <script src="../js/script.js"></script>
+
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    <script src="https://apis.google.com/js/platform.js" async defer>
+        {
+            lang: 'en-GB'
+        }
+    </script>
+</head>
+
+<body>
+
+  <!--Fix Scroll Bar Issue with multiple Modal Windows Clarified as Bootstrap BUG-->
+  <!--Validation of open modal adding modal-open class to css <style></style>-->
+  <script>
+      $(document).on('hidden.bs.modal', function(event) {
+          if ($('.modal:visible').length) //check if any modal is open
+          {
+              $('body').addClass('modal-open'); //add class to body
+          }
+      });
+  </script>
+
+    <!--Activate Modal-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#about").modal('show');
+        });
+    </script>
+    <!--End Activate Modal-->
+
+    <!-- Start About Us Section -->
+    <div class="section-modal modal fade" id="about" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" value="Back" onclick="history.go(-1);">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="section-title text-center">
+                        <h3>About Us</h3>
+                        <br>
+                        <br>
+                        <div class="col-lg-4">
+                          <p>
+                          text
+                          </p>
+                        </div>
+                        <div class="col-lg-4">
+                          <p>
+                          text
+                          </p>
+                        </div>
+                        <div class="col-lg-4">
+                          <p>
+                          text
+                          </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+
+    </div>
+    </div>
+    <!-- End About Us Section -->
+
+</body>
+
+</html>

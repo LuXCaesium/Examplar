@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <!-- Bootstrap Core CSS -->
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/animate.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+    <!-- Template js -->
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/jquery.appear.js"></script>
+    <script src="../js/contact_me.js"></script>
+    <script src="../js/jqBootstrapValidation.js"></script>
+    <script src="../js/modernizr.custom.js"></script>
+    <script src="../js/script.js"></script>
+
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+    <script src="https://apis.google.com/js/platform.js" async defer>
+        {
+            lang: 'en-GB'
+        }
+    </script>
+</head>
+
+<body>
+    <!--Fix Scroll Bar Issue with multiple Modal Windows Clarified as Bootstrap BUG-->
+    <!--Validation of open modal adding modal-open class to css <style></style>-->
+    <script>
+        $(document).on('hidden.bs.modal', function(event) {
+            if ($('.modal:visible').length) //check if any modal is open
+            {
+                $('body').addClass('modal-open'); //add class to body
+            }
+        });
+    </script>
+
+    <!--Google plus .js API Google plus Required!!-->
+    <script src="https://apis.google.com/js/platform.js" async defer>
+        {
+            lang: 'en-GB'
+        }
+    </script>
+
+    <!--Facebook JS API-->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!--Activate Modal-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#news").modal('show');
+        });
+    </script>
+    <!--End Activate Modal-->
+
+    <!-- Start Latest News Section -->
+    <div class="section-modal modal fade" id="news" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" value="Back" onclick="history.go(-1);">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="section-title text-center">
+                        <h3>Social Media</h3>
+                        <p>Keep up with the latest</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about">
+                            <i class="fa fa-twitter"></i>
+                            <div class="feature-content">
+                                <h4>Twitter</h4>
+                                <a class="twitter-timeline" href="https://twitter.com/examplar02">Tweets by examplar02</a>
+                                <a href="https://twitter.com/examplar02" class="twitter-follow-button" data-show-count="false">Follow @examplar02</a>
+                                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Facebook Page -->
+                    <div class="col-lg-6">
+                        <div class="about">
+                            <i class="fa fa-facebook"></i>
+                            <div class="feature-content">
+                                <h4>Facebook</h4>
+                                <div class="fb-page" data-href="https://www.facebook.com/examplar02/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                    <blockquote cite="https://www.facebook.com/examplar02/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/examplar02/">Examplar</a></blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Latest News Section -->
+
+</body>
+
+</html>
